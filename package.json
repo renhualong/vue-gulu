@@ -1,7 +1,7 @@
 {
-  "name": "vue-gulu",
+  "name": "gulu",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -14,5 +14,21 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.1.0",
     "vite": "^3.1.0"
-  }
+  },
+  "description": "作者： 任华龙",
+  "main": "这是一个UI组件库",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renhualong/vue-gulu.git"
+  },
+  "keywords": [
+    "VUE",
+    "UI组件库"
+  ],
+  "author": "renhualong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renhualong/vue-gulu/issues"
+  },
+  "homepage": "https://github.com/renhualong/vue-gulu#readme"
 }
