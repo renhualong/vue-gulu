@@ -1,5 +1,5 @@
 <template>
-  <button>按钮哈哈</button>
+  <button>按钮</button>
 </template>>
 <script>
 export default {
