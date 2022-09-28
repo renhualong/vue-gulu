@@ -6,7 +6,7 @@ export default {
 
 }
 </script>
-<style>
+<style lang="scss">
 button {
   font-size: var(--font-size);
   height: var(--button-height);
@@ -16,13 +16,13 @@ button {
   background: var(--button-bg);
   color: var(--button-color);
   cursor: pointer;
-}
 
-button:hover {
-  border-color: var(--button-color-hover);
-}
+  &:hover {
+    border-color: var(--button-color-hover);
+  }
 
-button:active {
-  background-color: var(--button-active-bg)
+  &:active {
+    background-color: var(--button-active-bg)
+  }
 }
 </style>
