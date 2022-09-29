@@ -4,7 +4,9 @@
 
 <template>
   <div>
-    <Button></Button>
+    <Button icon="setting" icon-position="left">按钮</Button>
+    <Button>按钮</Button>
+    <Button icon="setting" icon-position="right">按钮</Button>
   </div>
 
 </template>
@@ -16,3 +18,9 @@ export default {
   }
 }
 </script>
+<style>
+.icon {
+  width: 1em;
+  height: 1em;
+}
+</style>
